@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ff9933"
+            android:textColor="#0000FF"
+            android:textStyle="bold"
+            android:id="@+id/OutputHead"
+            android:textSize="15dp"
+            android:text="Welcome to voice assisted information store.\nCheck menu for instructions"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/giveOutput"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="150dp">
+
+
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:divider="#FF0000"
+                android:dividerHeight = "0.5dp"
+                android:id="@+id/listView">
+
+
+
+            </ListView>
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/btnSpeakContainer"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ff9933"
+            android:gravity = "center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageButton
+                android:id="@+id/btnSpeak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_mic_black_24dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnSpeak"
+                android:layout_margin="2dp"
+                android:text="Press to speak" />
+
+            <Button
+                android:id="@+id/enable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnSpeak"
+                android:textColor="#FF0000"
+                android:textStyle="bold"
+                android:layout_margin="2dp"
+                android:text="Search using text" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

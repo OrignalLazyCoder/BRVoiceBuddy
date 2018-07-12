@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BR voice buddy</string>
+    <string name="WelcomeMessage">Welcome user. Click On that mic button and get the details you want to get</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">BR Voice Buddy</string>
+    <string name="slide_1_desc">Search made easy!</string>
+    <string name="slide_2_title">What this application does?</string>
+    <string name="slide_2_desc">This Application gives details of employees working in BR Refinery by voice recognition with one button! You
+    get address , contact details , vehicle number and many more details using both voice and text feature.</string>
+    <string name="slide_3_title">How to use this app?</string>
+    <string name="slide_3_desc">1.tap on mic button.\n
+                            2.say address/phone number or anything of any employee\n
+                            3.Wait for the app to respond
+                           </string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps ->  BR Voice Buddy -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am here."
+        android:id="@+id/output"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#0000FF">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#ff9933"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name : "
+               android:textColor="#FFFF00"
+               android:textSize="19dp"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/DisplayName"
+               android:textColor="#FFFF00"
+               android:textSize="19dp"
+               android:text="Arpit Sharma"/>
+
+
+       </LinearLayout> <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#ff9933"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Position"
+               android:id="@+id/Position"
+               android:layout_margin="5dp"
+               android:textColor="#FFFF00"
+               android:textSize="19dp"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/Department"
+               android:layout_margin="5dp"
+               android:textColor="#FFFF00"
+               android:textSize="19dp"
+               android:text="Department"/>
+
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:text="Address :"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                 android:layout_gravity="center_vertical"
+                 android:id="@+id/DisplayAddress"
+                 android:text="Address will be here"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:text="Office Intercom :"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/OfficeIntercom"
+                android:text="office intercom"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#0000FF"
+                android:id="@+id/CallOfficeIntercom"
+                android:padding="5dp"
+                android:src="@drawable/call_button" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:text="Home Intercom :"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/HomeIntercom"
+                android:text="Home Intercom"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:background="#0000FF"
+                android:padding="5dp"
+                android:id="@+id/CallHomeIntercom"
+                android:src="@drawable/call_button"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:text="Mobile Number:"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/MobileNumber"
+                android:text="Mobile Number"
+                android:layout_weight="1"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#0000FF"
+                android:layout_margin="5dp"
+                android:id="@+id/CallMobile"
+                android:padding="5dp"
+                android:src="@drawable/call_button"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#0000FF"
+                android:layout_margin="5dp"
+                android:id="@+id/SendMessage"
+                android:padding="5dp"
+                android:src="@drawable/send_message"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:text="Email:"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/Email"
+                android:layout_weight="1"
+                android:text="Email Address"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#0000FF"
+                android:padding="5dp"
+                android:id="@+id/EmailButton"
+                android:src="@drawable/email_button"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:text="Date Of Birth:"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/DateOfBirth"
+                android:text="27-09-1998"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_gravity="center_vertical"
+                android:text="Vehicle Number:"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/Vehicle"
+                android:text="HR06T5468"
+                android:textColor="#FFFF00"
+                android:layout_margin="5dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

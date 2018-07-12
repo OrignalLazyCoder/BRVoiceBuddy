@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/report"
+        android:title="Report a bug" />
+
+    <item android:id="@+id/contact"
+        android:title="Contact Developer" />
+
+    <item android:id="@+id/help"
+        android:title="Help" />
+
+
+    <item android:title="Update Request"
+        android:id="@+id/request" />
+
+</menu>
