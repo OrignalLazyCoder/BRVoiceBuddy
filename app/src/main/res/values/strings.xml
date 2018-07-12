@@ -16,6 +16,6 @@
                             2.say address/phone number or anything of any employee\n
                             3.Wait for the app to respond
                            </string>
-    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps ->  BR Voice Buddy -> clear data</string>
+    <string name="play_again_desc">To see the  welcome slider again, goto Settings -> apps ->  BR Voice Buddy -> clear data</string>
     <string name="play_again">Play Again</string>
 </resources>
